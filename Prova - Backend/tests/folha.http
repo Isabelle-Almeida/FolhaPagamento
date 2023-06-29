@@ -1,0 +1,17 @@
+### Listar Folha
+GET http://localhost:3001
+### Buscar Folha
+GET http://localhost:3001/folha/123.456.789.34
+### Cadastrar Folha
+POST http://localhost:3001/folha/cadastrar
+Content-Type: application/json
+
+
+{
+    "cpf": "123.456.789.34",
+    "horas": 40,
+    "valorHora": 80,
+    "mes": 3,
+    "ano": 2023
+
+}
